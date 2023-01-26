@@ -1,5 +1,10 @@
-{% extends 'gallery/base.html' %}
+{% extends 'base.html' %}
 {% load static %}
+
+{% block title %}
+<title>Project Space | {{ photo.name }}</title>
+{% endblock %}
+
 {% block content %}
         <section class="conteudo">
             <section class="imagem">
